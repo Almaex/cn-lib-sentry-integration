@@ -1,25 +1,16 @@
 import sentry_sdk
-from fastapi import FastAPI
-from typing import Optional
 
 def init_sentry(
-    app: FastAPI,
     dsn: str,
     environment: str,
-    repository: Optional[str] = None,
-    release: Optional[str] = None,
-    traces_sample_rate: float = 1.0,
-    send_default_pii: bool = True,
+    server_name: str
 ):
-    tags = {}
-    if repository:
-        tags["repository"] = repository
-
     sentry_sdk.init(
         dsn=dsn,
+        add_full_stack=True,
+        send_default_pii=True,
+        traces_sample_rate=1.0,
+        profiles_sample_rate=1.0,
         environment=environment,
-        send_default_pii=send_default_pii,
-        traces_sample_rate=traces_sample_rate,
-        release=release,
-        tags=tags,
+        server_name=server_name,
     )
