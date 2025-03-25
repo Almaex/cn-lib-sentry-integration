@@ -1,5 +1,5 @@
 [project]
-name = "cn-lib-sentry-integration"
+name = "sentry_integration"
 version = "0.0.0"
 description = "Библиотека для интеграции Sentry"
 requires-python = "~=3.12"
