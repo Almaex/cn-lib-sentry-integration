@@ -1,7 +1,0 @@
-Metadata-Version: 2.4
-Name: sentry_integration
-Version: 0.0.0
-Summary: Библиотека для интеграции Sentry
-Requires-Python: ~=3.12
-Requires-Dist: sentry-sdk[fastapi]==2.*
-Requires-Dist: fastapi>=0.70.0

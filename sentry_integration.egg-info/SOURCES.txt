@@ -1,8 +1,0 @@
-pyproject.toml
-sentry_integration/__init__.py
-sentry_integration/integration.py
-sentry_integration.egg-info/PKG-INFO
-sentry_integration.egg-info/SOURCES.txt
-sentry_integration.egg-info/dependency_links.txt
-sentry_integration.egg-info/requires.txt
-sentry_integration.egg-info/top_level.txt
