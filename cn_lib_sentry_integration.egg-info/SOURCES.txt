@@ -1,0 +1,7 @@
+main.py
+pyproject.toml
+cn_lib_sentry_integration.egg-info/PKG-INFO
+cn_lib_sentry_integration.egg-info/SOURCES.txt
+cn_lib_sentry_integration.egg-info/dependency_links.txt
+cn_lib_sentry_integration.egg-info/requires.txt
+cn_lib_sentry_integration.egg-info/top_level.txt
