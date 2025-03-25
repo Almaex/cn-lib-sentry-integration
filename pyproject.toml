@@ -1,0 +1,13 @@
+[project]
+name = "cn-lib-sentry-integration"
+version = "0.0.0"
+description = "Библиотека для интеграции Sentry"
+requires-python = "~=3.12"
+dependencies = [
+    "sentry-sdk[fastapi]==2.*",
+    "fastapi>=0.70.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
